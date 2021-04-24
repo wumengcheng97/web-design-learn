@@ -1,57 +1,89 @@
-h3{
-    font-size: larger;
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(72, 72, 75);
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(110, 110, 116);
+}
+.logo, .menu, .content{
+    width: 960px;
+    margin: 0 auto;
+}
+.logo{
+    height: 50px;
+    padding: 5px 20px;
+}
+.banner{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(180, 219, 113);
 }
 
-h1{
-    color: rgb(255, 255, 255);
+.navigation{
+    width: 100%;
+    margin-top: 20px;
+}
+.content{
+    
+}
+.logo h4{
+    color: white;
+    font-size: larger;
+    float: left;
+}
+.sub_navigation a{
+    color: white;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-right: 10px;
+    left: 800px;
+    position: relative;
+}
+.page{
+    position: relative;
+    top: 200px;
+    left: 900px;
+}
+.page_num{
+    display: inline-flex;
+    border: rgb(43, 116, 55) solid 1px;
+    padding: 5px;
+    background-color: #8df564;
     text-align: center;
 }
 
-.title{
-    background-color: rgb(112, 179, 245);
-    width: 8em; 
-    height: 40em;
+.page_num:first-child{
+    padding: 10px 5px 5px;
+    background-color: #a6f786;
+}
+
+.menu_item{
     float: left;
+    border:rgb(163, 162, 162) solid 1px;
+    border-radius: 20px 20px 0 0 ;
+    padding: 15px 20px;
+    background-color: rgb(163, 162, 162);
+    text-align: center;
+
 }
 
-.comment{
-    margin-left: 30px;
-}
-
-ul .title{
-    width: 8em; 
-    height:4em;
+.menu_item:first-child{
     background-color:white;
-    margin-left: 30px;
 }
-
-ul .comment{
-    width: 73em; 
-    height: 4em;
-    float: left;
+hr{
+    width: 100%;
 }
-
-.tag{
-    font-weight:bold;
-    margin-right: 10px;
+.content_item{
+    padding: 80px;
+    margin: 5px;
+    display: inline-flex;
+    border:rgb(163, 162, 162) solid 1px;
 }
-
-.value{
-    margin-right: 30px;
-}
-
-ul{
-    line-height: 1.5;
-    padding:0;
-    margin:0;
-    text-align: left;
-    list-style-type:none;
-}
-
-ul li span{
-    margin-bottom: 5px;
-}
-
-ul li .value{
-    margin-bottom: 20px;
+.footer{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
 }
